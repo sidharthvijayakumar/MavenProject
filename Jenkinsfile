@@ -1,7 +1,7 @@
 node{
   stage('SCM Checout'){
    
-  git 'https://github.com/sidharthvijayakumar/Mav'
+  git 'https://github.com/sidharthvijayakumar/MavenProject'
   }
   stage('Build'){
      def mvnHome = tool name: 'Maven', type: 'maven'
