@@ -27,6 +27,5 @@
             </plugin>
         </plugins>
     
-    <finalName>War</finalName>
   </build>
 </project>
